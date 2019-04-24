@@ -1,0 +1,96 @@
+nav.main-nav{
+    background-color: #02B7C2;
+    color:white
+}
+
+
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 0.5rem 0;
+}
+
+nav.main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size:18px;
+    padding: 5px 0 0 0;
+    
+}
+
+nav.main-nav ul a {
+    color:white;
+}
+
+nav.main-nav .dropdown-item{
+    color:black !important;
+}
+
+
+
+@media(max-width:767px){
+    nav.main-nav ul{
+        list-style: none;
+        display: block;
+        padding: 0 0 !important ;
+        color:white;
+        
+    } 
+    nav.main-nav ul.col-12{
+        padding-bottom:0 !important; 
+    }  
+
+    .stickyNavBar{
+        display: none;
+    }
+
+    ul{
+        font-size:12px !important;
+    }
+}
+
+@media (max-width: 992px) { 
+
+    ul{
+        font-size:14px !important;
+    }
+
+  
+ }
+
+nav.main-nav ul li{
+    padding: 0px 20px
+}
+
+nav.main-nav .Upload-Pre{
+    background: white;
+    color: #ee4380;
+    font-family: robotoregular;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 3px 35px 3px ;
+    border: none;
+}
+
+nav.main-nav .search{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 1;
+    height: 38px;
+    background: #ef4281;
+    border: 0px none;
+    border-radius: 0px 20px 20px 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    line-height: 36px;
+    padding: 0px 20px 0px 8px;
+    color:white;
+    font-weight: 700;
+}
+nav.main-nav .form-control{
+    border-radius: 0px 20px 20px 0;
+} 
